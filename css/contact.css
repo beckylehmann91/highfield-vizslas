@@ -1,0 +1,20 @@
+.contact-section p {
+  margin: 0.5rem;
+}
+
+.contact-section h4 {
+  margin: 0.75rem;
+}
+
+#contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-flow: wrap;
+}
+
+#contact-sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

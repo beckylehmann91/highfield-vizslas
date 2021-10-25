@@ -1,0 +1,35 @@
+.carousel {
+  position: relative;
+}
+
+.carousel-item {
+  padding: 1em;
+  display: none;
+}
+
+.carousel-item, .carousel-item img {
+  height: 500px;
+}
+
+.carousel-item-active {
+  display: block;
+}
+
+.carousel-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.carousel-button {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.carousel-button-active {
+  background-color: rgb(8, 113, 247);
+}

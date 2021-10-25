@@ -1,0 +1,18 @@
+#about {
+  background-color: rgba(255,255,255,0.6);
+  padding: 16px;
+  margin: 16px 32px 0px;
+}
+
+.images {
+  margin-bottom: 16px;
+}
+
+.images img {
+  max-height: 250px;
+  margin: 0 16px;
+}
+
+.about-section {
+  margin-bottom: 64px;
+}
