@@ -88,6 +88,14 @@
     background-position-y: 0;
   }
 
+  #showcase div {
+    font-size: 2rem;
+  }
+
+  #showcase .subtext {
+    font-size: 0.8rem;
+  }
+
   .description img {
     height: 200px;
   }

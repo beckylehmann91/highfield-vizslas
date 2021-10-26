@@ -74,7 +74,6 @@ header a {
 header .logo {
     display: flex;
     align-items: center;
-    /* justify-content:  */
 }
 
 header .logo img{
@@ -96,4 +95,19 @@ footer p {
 
 footer img {
     height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 0.7rem;
+    }
+
+    header .logo h2 {
+        font-size: 1.2rem;
+    }
+
+    header .logo img {
+        height: 60px;
+    }
+
 }
