@@ -33,7 +33,10 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 200px;
+  min-height: 200px;
+  /* added */
+  height: 100%;
+  flex-flow: wrap;
 }
 
 #boxes .material-icons {
@@ -46,10 +49,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.box h4 {
-  font-family: Roboto, sans-serif;
 }
 
 .vl {
@@ -74,4 +73,26 @@
 
 .description img {
   height: 350px;
+}
+
+/* Mobile Styling */
+
+@media only screen and (max-width: 1024px) {
+  #showcase {
+    min-height: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #showcase {
+    background-position-y: 0;
+  }
+
+  .description img {
+    height: 200px;
+  }
+
+  .vl {
+    display: none;
+  }
 }
